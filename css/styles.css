@@ -1,0 +1,48 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+.body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 125px;
+  height: 38px;
+  border: none;
+}
+button:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #2196f3;
+}
+@media screen and (min-width: 1024px) {
+  button {
+    margin-left: 600px;
+    margin-top: 50px;
+  }
+}
